@@ -7,7 +7,7 @@ A [community-scripts](https://community-scripts.github.io/ProxmoxVE/)-style inst
 Run on the **Proxmox VE host** as root:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/gianlucaf81/reclip-lxc/main/reclip-lxc.sh)
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/gianlucaf81/reclip-lxc/main/reclip-lxc.sh)"
 ```
 
 or clone/copy the script and run:
